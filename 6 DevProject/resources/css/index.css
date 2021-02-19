@@ -1,0 +1,17 @@
+.bodytop {
+    font-family: Arial;
+    color: wheat;
+    text-align: center;
+    background-color: black;
+}
+
+.header {
+    color: seagreen;
+    font-size: 24px;
+
+}
+
+.division {
+    text-align: center;
+    color: goldenrod;
+}

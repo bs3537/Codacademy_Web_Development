@@ -1,0 +1,129 @@
+.banner {
+    width: 100%;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+    height: 120px;
+    background-position: center;
+    font-family: Helvetica;
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.brushes {
+    width: 100%;
+    background-color: mediumspringgreen;
+    height: 40px;
+    background-position: center;
+    font-family: Helvetica;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.hacksaw {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg);
+    float: left;
+}
+
+.hacksaw-brushes {
+    font-family: Helvetica;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.oak {
+    font-family: Helvetica;
+    color: black;
+    font-size: 16px;
+}
+
+.blue1 {
+    font-family: Helvetica;
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.oak, .blue1 {
+    display:inline;
+}
+
+
+
+.frames {
+    width: 100%;
+    background-color: lightcoral;
+    height: 40px;
+    background-position: center;
+    font-family: Helvetica;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.art-frames {
+    font-family: Helvetica;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.assorted-frames {
+    font-family: Helvetica;
+    color: black;
+    font-size: 16px;
+}
+
+.blue2 {
+    font-family: Helvetica;
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.assorted-frames, .blue2 {
+    display:inline;
+}
+
+
+
+.paint {
+    width: 100%;
+    background-color: skyblue;
+    height: 40px;
+    background-position: center;
+    font-family: Helvetica;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.paint2 {
+    font-family: Helvetica;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paint3 {
+    font-family: Helvetica;
+    color: black;
+    font-size: 16px;
+}
+
+.blue3 {
+    font-family: Helvetica;
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.paint3, .blue3 {
+    display:inline;
