@@ -1,0 +1,40 @@
+let userName = 'Bhavneesh';
+console.log(`Hello ${userName}`)
+
+
+let userQuestion = "What's this game?";
+console.log(`${userName} asked: ${userQuestion}`);
+
+let randomNumber= Math.floor(Math.random() * 8);
+
+let eightBall = randomNumber;
+
+if (eightBall==0) {
+  console.log('Cannot predict now')
+} 
+
+if (eightBall==1) {
+  console.log('My sources say no')
+} 
+
+if (eightBall==3) {
+  console.log('Outlook not good')
+} 
+
+if (eightBall==4) {
+  console.log('Reply hazy try again')
+} 
+
+if (eightBall==5) {
+  console.log('It is decidedly so')
+} 
+
+if (eightBall==6) {
+  console.log('Signs point to yes')
+} 
+
+if (eightBall==7) {
+  console.log('It is certain')
+} 
+
+console.log(`The eight ball answered: ${eightBall}`);
