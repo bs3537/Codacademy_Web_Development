@@ -1,0 +1,30 @@
+//Deep in his mountain-side meteorology lab, the mad scientist Kelvin has mastered weather prediction.
+
+//Recently, Kelvin began publishing his weather forecasts on his website. However there’s a problem: All of his forecasts describe the temperature in Kelvin.
+
+//With our knowledge of JavaScript, let’s convert Kelvin to Celsius, then to Fahrenheit.
+
+
+// create a variable named kelvin, and set it equal to 293
+let kelvin = 293;
+
+//define variable celsius
+let celsius = kelvin - 293;
+
+// define variable fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+
+// use math.floor method to round the decimal
+let temperature = Math.floor(fahrenheit);
+
+//the program prints the value of temp entered in kelvin above in fahrenheit.
+console.log(`The temperature is ${temperature} degrees Fahrenheit.`);
+
+// Temperature in Newton
+
+let newton = celsius * (33/100);
+
+let temperature_in_newton = Math.floor(newton);
+
+//the program prints the value of temp entered in kelvin above in fahrenheit.
+console.log(`The temperature is ${temperature_in_newton} degrees Newton.`);
