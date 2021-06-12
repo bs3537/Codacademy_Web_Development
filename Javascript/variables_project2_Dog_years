@@ -1,0 +1,31 @@
+//Dogs mature at a faster rate than human beings. 
+//We often say a dog’s age can be calculated in “dog years” to account for their growth compared to a human of the same age. 
+//In some ways we could say, time moves quickly for dogs — 8 years in a human’s life equates to 45 years in a dog’s life. 
+//How old would you be if you were a dog?
+
+// Set my age variable
+let myAge = 36;
+
+// set variable early years 
+let earlyYears = 2;
+
+// reassign variable earlyYears using multiplication assignment operator 
+earlyYears = earlyYears *= 10.5;
+
+//set laterYears variable
+let laterYears = myAge -=2;
+
+// use division assigment operator
+laterYears = laterYears /=4;
+
+// set my age in dog years variable
+
+let myAgeInDogYears = earlyYears += laterYears
+
+//write your name as string and convert to lower case
+
+let myName = 'Bob';
+myName = myName.toLowerCase();
+
+//use string interpolation method to print your age in dog years
+console.log (`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
